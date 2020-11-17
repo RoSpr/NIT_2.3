@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE0014272564523000A4E670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0014262564523000A4E670 /* AppDelegate.swift */; };
+		EE0014292564523000A4E670 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0014282564523000A4E670 /* SceneDelegate.swift */; };
+		EE00142B2564523000A4E670 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00142A2564523000A4E670 /* ViewController.swift */; };
+		EE00142E2564523000A4E670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE00142C2564523000A4E670 /* Main.storyboard */; };
+		EE0014302564523100A4E670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE00142F2564523100A4E670 /* Assets.xcassets */; };
+		EE0014332564523100A4E670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0014312564523100A4E670 /* LaunchScreen.storyboard */; };
+		EE00143E2564523200A4E670 /* NIT_2_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00143D2564523200A4E670 /* NIT_2_3Tests.swift */; };
+		EE0014492564523200A4E670 /* NIT_2_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0014482564523200A4E670 /* NIT_2_3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE00143A2564523200A4E670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE00141B2564523000A4E670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE0014222564523000A4E670;
+			remoteInfo = NIT_2.3;
+		};
+		EE0014452564523200A4E670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE00141B2564523000A4E670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE0014222564523000A4E670;
+			remoteInfo = NIT_2.3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE0014232564523000A4E670 /* NIT_2.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIT_2.3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0014262564523000A4E670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE0014282564523000A4E670 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE00142A2564523000A4E670 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE00142D2564523000A4E670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE00142F2564523100A4E670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE0014322564523100A4E670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE0014342564523100A4E670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0014392564523200A4E670 /* NIT_2.3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIT_2.3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE00143D2564523200A4E670 /* NIT_2_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIT_2_3Tests.swift; sourceTree = "<group>"; };
+		EE00143F2564523200A4E670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0014442564523200A4E670 /* NIT_2.3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIT_2.3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0014482564523200A4E670 /* NIT_2_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIT_2_3UITests.swift; sourceTree = "<group>"; };
+		EE00144A2564523200A4E670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE0014202564523000A4E670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0014362564523200A4E670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0014412564523200A4E670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE00141A2564523000A4E670 = {
+			isa = PBXGroup;
+			children = (
+				EE0014252564523000A4E670 /* NIT_2.3 */,
+				EE00143C2564523200A4E670 /* NIT_2.3Tests */,
+				EE0014472564523200A4E670 /* NIT_2.3UITests */,
+				EE0014242564523000A4E670 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE0014242564523000A4E670 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE0014232564523000A4E670 /* NIT_2.3.app */,
+				EE0014392564523200A4E670 /* NIT_2.3Tests.xctest */,
+				EE0014442564523200A4E670 /* NIT_2.3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE0014252564523000A4E670 /* NIT_2.3 */ = {
+			isa = PBXGroup;
+			children = (
+				EE0014262564523000A4E670 /* AppDelegate.swift */,
+				EE0014282564523000A4E670 /* SceneDelegate.swift */,
+				EE00142A2564523000A4E670 /* ViewController.swift */,
+				EE00142C2564523000A4E670 /* Main.storyboard */,
+				EE00142F2564523100A4E670 /* Assets.xcassets */,
+				EE0014312564523100A4E670 /* LaunchScreen.storyboard */,
+				EE0014342564523100A4E670 /* Info.plist */,
+			);
+			path = NIT_2.3;
+			sourceTree = "<group>";
+		};
+		EE00143C2564523200A4E670 /* NIT_2.3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EE00143D2564523200A4E670 /* NIT_2_3Tests.swift */,
+				EE00143F2564523200A4E670 /* Info.plist */,
+			);
+			path = NIT_2.3Tests;
+			sourceTree = "<group>";
+		};
+		EE0014472564523200A4E670 /* NIT_2.3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE0014482564523200A4E670 /* NIT_2_3UITests.swift */,
+				EE00144A2564523200A4E670 /* Info.plist */,
+			);
+			path = NIT_2.3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE0014222564523000A4E670 /* NIT_2.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE00144D2564523200A4E670 /* Build configuration list for PBXNativeTarget "NIT_2.3" */;
+			buildPhases = (
+				EE00141F2564523000A4E670 /* Sources */,
+				EE0014202564523000A4E670 /* Frameworks */,
+				EE0014212564523000A4E670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NIT_2.3;
+			productName = NIT_2.3;
+			productReference = EE0014232564523000A4E670 /* NIT_2.3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE0014382564523200A4E670 /* NIT_2.3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0014502564523200A4E670 /* Build configuration list for PBXNativeTarget "NIT_2.3Tests" */;
+			buildPhases = (
+				EE0014352564523200A4E670 /* Sources */,
+				EE0014362564523200A4E670 /* Frameworks */,
+				EE0014372564523200A4E670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE00143B2564523200A4E670 /* PBXTargetDependency */,
+			);
+			name = NIT_2.3Tests;
+			productName = NIT_2.3Tests;
+			productReference = EE0014392564523200A4E670 /* NIT_2.3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE0014432564523200A4E670 /* NIT_2.3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0014532564523200A4E670 /* Build configuration list for PBXNativeTarget "NIT_2.3UITests" */;
+			buildPhases = (
+				EE0014402564523200A4E670 /* Sources */,
+				EE0014412564523200A4E670 /* Frameworks */,
+				EE0014422564523200A4E670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE0014462564523200A4E670 /* PBXTargetDependency */,
+			);
+			name = NIT_2.3UITests;
+			productName = NIT_2.3UITests;
+			productReference = EE0014442564523200A4E670 /* NIT_2.3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE00141B2564523000A4E670 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					EE0014222564523000A4E670 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					EE0014382564523200A4E670 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = EE0014222564523000A4E670;
+					};
+					EE0014432564523200A4E670 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = EE0014222564523000A4E670;
+					};
+				};
+			};
+			buildConfigurationList = EE00141E2564523000A4E670 /* Build configuration list for PBXProject "NIT_2.3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE00141A2564523000A4E670;
+			productRefGroup = EE0014242564523000A4E670 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE0014222564523000A4E670 /* NIT_2.3 */,
+				EE0014382564523200A4E670 /* NIT_2.3Tests */,
+				EE0014432564523200A4E670 /* NIT_2.3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE0014212564523000A4E670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0014332564523100A4E670 /* LaunchScreen.storyboard in Resources */,
+				EE0014302564523100A4E670 /* Assets.xcassets in Resources */,
+				EE00142E2564523000A4E670 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0014372564523200A4E670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0014422564523200A4E670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE00141F2564523000A4E670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE00142B2564523000A4E670 /* ViewController.swift in Sources */,
+				EE0014272564523000A4E670 /* AppDelegate.swift in Sources */,
+				EE0014292564523000A4E670 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0014352564523200A4E670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE00143E2564523200A4E670 /* NIT_2_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0014402564523200A4E670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0014492564523200A4E670 /* NIT_2_3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE00143B2564523200A4E670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE0014222564523000A4E670 /* NIT_2.3 */;
+			targetProxy = EE00143A2564523200A4E670 /* PBXContainerItemProxy */;
+		};
+		EE0014462564523200A4E670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE0014222564523000A4E670 /* NIT_2.3 */;
+			targetProxy = EE0014452564523200A4E670 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE00142C2564523000A4E670 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE00142D2564523000A4E670 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE0014312564523100A4E670 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE0014322564523100A4E670 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE00144B2564523200A4E670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE00144C2564523200A4E670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE00144E2564523200A4E670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NIT_2.3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NapoleonIT.NIT-2-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE00144F2564523200A4E670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NIT_2.3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NapoleonIT.NIT-2-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE0014512564523200A4E670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NIT_2.3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NapoleonIT.NIT-2-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIT_2.3.app/NIT_2.3";
+			};
+			name = Debug;
+		};
+		EE0014522564523200A4E670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NIT_2.3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NapoleonIT.NIT-2-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIT_2.3.app/NIT_2.3";
+			};
+			name = Release;
+		};
+		EE0014542564523200A4E670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NIT_2.3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NapoleonIT.NIT-2-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NIT_2.3;
+			};
+			name = Debug;
+		};
+		EE0014552564523200A4E670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NIT_2.3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NapoleonIT.NIT-2-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NIT_2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE00141E2564523000A4E670 /* Build configuration list for PBXProject "NIT_2.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE00144B2564523200A4E670 /* Debug */,
+				EE00144C2564523200A4E670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE00144D2564523200A4E670 /* Build configuration list for PBXNativeTarget "NIT_2.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE00144E2564523200A4E670 /* Debug */,
+				EE00144F2564523200A4E670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0014502564523200A4E670 /* Build configuration list for PBXNativeTarget "NIT_2.3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0014512564523200A4E670 /* Debug */,
+				EE0014522564523200A4E670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0014532564523200A4E670 /* Build configuration list for PBXNativeTarget "NIT_2.3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0014542564523200A4E670 /* Debug */,
+				EE0014552564523200A4E670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE00141B2564523000A4E670 /* Project object */;
+}
